@@ -20,17 +20,17 @@ body {
 }
 
 #background-top-pattern,
-#background-bottom-pattern{
+#background-bottom-pattern {
   position: fixed;
   width: 100%;
 }
 
-#background-top-pattern{
+#background-top-pattern {
   top: -130px;
   left: -170px;
 }
 
-#background-bottom-pattern{
+#background-bottom-pattern {
   bottom: -130px;
   right: -170px;
 }
@@ -90,30 +90,29 @@ main {
 }
 
 /* activities section/info on user's account */
-.activities{
+.activities {
   width: 100%;
   margin-top: 50px;
   padding-top: 30px;
   display: flex;
   justify-content: space-evenly;
-  border-top: var(--border)
+  border-top: var(--border);
 }
 
-.num{
+.num {
   color: var(--text-color);
   display: flex;
   font-weight: 700;
   flex-direction: column;
 }
 
-.activity{
+.activity {
   color: var(--text-color-2);
   margin-top: 3px;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
 }
-
 
 /* "coded by" section */
 .attribution {
@@ -124,40 +123,38 @@ main {
   color: var(--card-bg);
 }
 
-
-
 /* for laptop screens */
 @media screen and (min-width: 768px) {
-  #background-top-pattern{
+  #background-top-pattern {
     top: -370px;
     left: -370px;
   }
-  
-  #background-bottom-pattern{
+
+  #background-bottom-pattern {
     bottom: -370px;
     right: -370px;
   }
 }
 
 @media screen and (min-width: 875px) {
-  #background-top-pattern{
+  #background-top-pattern {
     top: -770px;
     left: -570px;
   }
-  
-  #background-bottom-pattern{
+
+  #background-bottom-pattern {
     bottom: -770px;
     right: -570px;
   }
 }
 
 @media screen and (min-width: 1100px) {
-  #background-top-pattern{
+  #background-top-pattern {
     top: -950px;
     left: -770px;
   }
 
-  #background-bottom-pattern{
+  #background-bottom-pattern {
     bottom: -950px;
     right: -770px;
   }
