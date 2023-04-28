@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+:root {
+  --bg-color: hsl(185, 75%, 39%);
+  --text-color: hsl(229, 23%, 23%);
+  --text-color-2: hsl(227, 10%, 46%);
+  --card-bg: #f4f4f4;
+  --border: 1px solid hsl(0, 0%, 59%);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+#background-top-pattern,
+#background-bottom-pattern{
+  position: fixed;
+  width: 100%;
+}
+
+#background-top-pattern{
+  top: -130px;
+  left: -170px;
+}
+
+#background-bottom-pattern{
+  bottom: -130px;
+  right: -170px;
+}
+
+main {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+.top > img {
+  border-radius: 15px 15px 0 0;
+}
+
+.user {
+  height: 270px;
+  position: relative;
+  top: -10px;
+  border-radius: 0 0 15px 15px;
+  background-color: var(--card-bg);
+}
+
+.user > div {
+  position: relative;
+  top: -50px;
+}
+
+#portrait {
+  position: relative;
+  border: 5px solid var(--card-bg);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* user data */
+#name {
+  color: var(--text-color);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#age {
+  color: var(--text-color-2);
+  font-weight: 400;
+}
+
+#location {
+  color: var(--text-color-2);
+  font-weight: 400;
+}
+
+/* activities section/info on user's account */
+.activities{
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: var(--border)
+}
+
+.num{
+  color: var(--text-color);
+  display: flex;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.activity{
+  color: var(--text-color-2);
+  margin-top: 3px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+
+/* "coded by" section */
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--card-bg);
+}
